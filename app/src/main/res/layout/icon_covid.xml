@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvCountryCode"
+        android:layout_width="match_parent"
+        style="@style/customTextIconCovid"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvCountry"
+        android:layout_width="match_parent"
+        style="@style/customTextIconCovid"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvLat"
+        android:layout_width="match_parent"
+        style="@style/customTextIconCovid"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvLng"
+        android:layout_width="match_parent"
+        style="@style/customTextIconCovid"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvTotalConfirmed"
+        android:layout_width="match_parent"
+        style="@style/customTextIconCovid"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvTotalDeaths"
+        android:layout_width="match_parent"
+        style="@style/customTextIconCovid"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvTotalRecovered"
+        android:layout_width="match_parent"
+        style="@style/customTextIconCovid"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvDailyConfirmed"
+        android:layout_width="match_parent"
+        style="@style/customTextIconCovid"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvDailyDeaths"
+        android:layout_width="match_parent"
+        style="@style/customTextIconCovid"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvActiveCase"
+        android:layout_width="match_parent"
+        style="@style/customTextIconCovid"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvTotalCritical"
+        android:layout_width="match_parent"
+        style="@style/customTextIconCovid"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvTotalConfirmedPerMillionPopulation"
+        android:layout_width="match_parent"
+        style="@style/customTextIconCovid"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvTotalDeathsPerMillionPopulation"
+        android:layout_width="match_parent"
+        style="@style/customTextIconCovid"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvFR"
+        android:layout_width="match_parent"
+        style="@style/customTextIconCovid"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvPR"
+        android:layout_width="match_parent"
+        style="@style/customTextIconCovid"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvLastUpdated"
+        android:layout_width="match_parent"
+        style="@style/customTextIconCovid"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
